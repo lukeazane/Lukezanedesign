@@ -264,64 +264,64 @@
 	background-size:contain;
 }
 #YingYang-img-1{
-	background-image: url(Images/yingyang1.jpg);
+	background-image: url(../img/Images/yingyang1.jpg);
 }
 #YingYang-img-2{
-	background-image: url(Images/yingyang2.jpg);
+	background-image: url(../img/Images/yingyang2.jpg);
 }
 #YingYang-img-3{
-	background-image: url(Images/yingyang3.jpg);
+	background-image: url(../img/Images/yingyang3.jpg);
 }
 #D2C-img-1{
-	background-image: url(Images/D2C1.jpg)
+	background-image: url(../img/Images/D2C1.jpg)
 }
 #D2C-img-2{
-	background-image: url(Images/D2C2.jpg)
+	background-image: url(../img/Images/D2C2.jpg)
 }
 #D2C-img-3{
-	background-image: url(Images/D2C3.jpg)
+	background-image: url(../img/Images/D2C3.jpg)
 }
 #VW-img-1{
-	background-image: url(Images/vw1.jpg)
+	background-image: url(../img/Images/vw1.jpg)
 }
 #VW-img-2{
-	background-image: url(Images/vw2.jpg)
+	background-image: url(../img/Images/vw2.jpg)
 }
 #VW-img-3{
-	background-image: url(Images/vw3.jpg)
+	background-image: url(../img/Images/vw3.jpg)
 }
 #Ram-img-1{
-	background-image: url(Images/Ram1.jpg)
+	background-image: url(../img/Images/Ram1.jpg)
 }
 #Ram-img-2{
-	background-image: url(Images/Ram2.jpg)
+	background-image: url(../img/Images/Ram2.jpg)
 }
 #Ram-img-3{
-	background-image: url(Images/Ram3.jpg)
+	background-image: url(../img/Images/Ram3.jpg)
 }
 #Bike-img-1{
-	background-image: url(Images/Bike1.jpg)
+	background-image: url(../img/Images/Bike1.jpg)
 }
 #Bike-img-2{
-	background-image: url(Images/Bike2.jpg)
+	background-image: url(../img/Images/Bike2.jpg)
 }
 #Mskate-img-1{
-	background-image: url(Images/Mskate1.jpg)
+	background-image: url(../img/Images/Mskate1.jpg)
 }
 #Mskate-img-2{
-	background-image: url(Images/Mskate2.jpg)
+	background-image: url(../img/Images/Mskate2.jpg)
 }
 #Mskate-img-3{
-	background-image: url(Images/Mskate3.jpg)
+	background-image: url(../img/Images/Mskate3.jpg)
 }
 #Aven-img-1{
-	background-image: url(Images/Aven1.jpg)
+	background-image: url(../img/Images/Aven1.jpg)
 }
 #Aven-img-2{
-	background-image: url(Images/Aven2.jpg)
+	background-image: url(../img/Images/Aven2.jpg)
 }
 #Aven-img-3{
-	background-image: url(Images/Aven3.jpg)
+	background-image: url(../img/Images/Aven3.jpg)
 }
 /* end individual internal images*/
 
@@ -416,7 +416,7 @@ body{
 	background-repeat: no-repeat;
 }
 #home{
-	background-image: url(Images/homebutton.png);
+	background-image: url(../img/Images/homebutton.png);
 	margin:  0 20.5% 0 0;
 	background-size: 30%;
 	transition: .25s ease-in-out;
@@ -425,7 +425,7 @@ body{
 	background-size: 32.5%;
 }
 #hamburger{
-	background-image: url(Images/hambutton.png);
+	background-image: url(../img/Images/hambutton.png);
 	margin: 0 0 0 20.5%;
 	background-size: 30%;
 	transition: .25s ease-in-out;
@@ -583,27 +583,27 @@ body{
 
 
 #logoimg{
-	background-image: url(Images/Vessel.jpg);
+	background-image: url(../img/Images/Vessel.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 #brandingimg{
-	background-image: url(Images/Branding.jpg);
+	background-image: url(../img/Images/Branding.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 #webimg{
-	background-image: url(Images/Web.jpg);
+	background-image: url(../img/Images/Web.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 #apparelimg{
-	background-image: url(Images/Apparel.jpg);
+	background-image: url(../img/Images/Apparel.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 #layoutimg{
-	background-image: url(Images/Layout.jpg);
+	background-image: url(../img/Images/Layout.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -615,21 +615,21 @@ body{
 #face{
 	width: 236px;
 	height: 100px;
-	background-image:url(Images/facepic.png);
+	background-image:url(../img/Images/facepic.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain
 		
 }
 #facebook{
-	background-image: url(Images/facebook_icon.png);
+	background-image: url(../img/Images/facebook_icon.png);
 	margin-left: 5%;
 }
 #instagram{
-	background-image: url(Images/Insta_icon.png);
+	background-image: url(../img/Images/Insta_icon.png);
 }
 #linkedin{
-	background-image: url(Images/Linkedin_icon.png);
+	background-image: url(../img/Images/Linkedin_icon.png);
 }
 footer li{
 	list-style: none;
@@ -664,7 +664,7 @@ footer {
 	width: 325px;
 	margin: auto;
 	margin-top: 10%;
-	background-image: url(Images/intro-logo.png);
+	background-image: url(../img/Images/intro-logo.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size:contain;
@@ -674,7 +674,7 @@ footer {
 	width: 100px;
 	margin: auto;
 	margin-top: -2%;
-	background-image: url(Images/intro-button.png);
+	background-image: url(../img/Images/intro-button.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size:contain;
