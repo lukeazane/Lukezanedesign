@@ -442,8 +442,6 @@
 }
 /* end individual internal images*/
 
-
-
 /* Close button */
 
 .action {
@@ -676,19 +674,19 @@ body{
 .back_innerbox1{
 	margin: -1px 6% 6% 6%;
 	width: 88%;
-	background-color: #ebebeb;
+	background-color: #dbdbdb;
 	height: 230px;
 	float: left;
 }
 
 .back_innerbox2{
-	margin: 4% 6% 0% 6%;
-	width: 88%;
+	margin: 4% 6% 0% 5.5%;
+	width: 88.5%;
 	float: left;
 	background-position:center;
 }
 .back_innerbox2 a{
-	color: #ebebeb;
+	color: #dbdbdb;
 	font-family: arial;
 	font-weight:900;
 	font-size: 28px;
@@ -712,7 +710,7 @@ body{
 	margin: 5px 20% 5px 20%;
 }
 .back_button a{
-	color:#EBEBEB;
+	color:#dbdbdb;
 	font-family: arial;
 	font-weight: 900;
 	font-size: 17px;
@@ -969,7 +967,7 @@ input[type=submit]:hover {
 }
 #me_inner_content_grey{
 	height: 418px;
-	background: #ebebeb;
+	background: #dbdbdb;
 	margin-right: 11px;
 	margin-left: 11px;
 	padding: 20px 2.5% 10px 2.5%;
@@ -993,7 +991,7 @@ input[type=submit]:hover {
 	font-weight: 600;
 	font-size: 40px;
 	margin: 27.5px 0px 2.5px 11px;
-	color: #ebebeb;
+	color: #dbdbdb;
 	height: 40px;
 	
 }
