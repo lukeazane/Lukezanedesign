@@ -27,7 +27,17 @@
 <link href="../css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<div id="header" class="animated fadeInDown">
+	<span onclick="openNav()"><div id="hamburger_menu"></div></span>
+  		<div id="myNav" class="overlay">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <div class="overlay-content">
+				<a href="#">About</a>
+				<a href="#">Services</a>
+				<a href="#">Clients</a>
+				<a href="#">Contact</a>
+			  </div>
+		</div>
+	<div id="header" class="animated fadeIn">
 		<ul id="nav">
 			<li id="navtext">
 				<ul id="navwrapper">
@@ -50,7 +60,7 @@
 						<br><br>
 							Illustrator, Designer, Creative.
 						<br><br>
-						I take visual dreams and bring them into reality. Basically, I’m a printer for your brain. I love helping people realize their visual dreams. I also LOVE coffee and meeting new people, so email me and lets make your idea a reality! 
+						I take visual dreams and bring them into reality. Basically, I’m a printer for your brain. I'm here to help bring out your inner creative and take your ideas on the journey from concept to existence. I also LOVE coffee and meeting new people, so email me and lets get started! 
 						<br>
 						<br>
 						Glad you stopped by; enjoy my website! 
@@ -59,16 +69,6 @@
 						<br>
 							<br><span style="font-size: 15px; font-weight: 50;">P.S. go check out my Instagram if you want<br> to get to know the man behind the hair!</span>
 					</p>
-					<!--
-					<ul id="me_PG">
-						<li class="me_inner_PG">
-							<p>This little life I’m living is incredible and I do my best to enjoy every moment of it. I am a designer by day and a creative by night. Which basically means I’m at coffee shops during the day and I play music when I get home. The art of creating is a blessing and I love being the bringer of new ideas! Creativity has been  with me my whole life, from coming up with ways to get out of homework to writing poetry and music. I love meeting new people and hope to</p>
-						</li>
-						<li class="me_inner_PG">
-							<p>someday meet you if I haven’t already! Hopefully your little journey through my site has been, fun, informative and an all around blast! If you’d like to know more hop on over to my contact page and shoot me some ones and zeros! I’ll be in touch!S</p>
-						</li>
-					</ul>
-					-->
 				</div>
 			</li>
 			<li class="me_inner_content" id="me_inner_content_r">
@@ -80,7 +80,7 @@
 				</div>
 			</li>
 		</ul>
-		<div id="insta">
+		<div id="insta" class="animated fadeIn">
 			<div id="insta_grid">
 				<div class="grid2-item">
 					<div class="insta-inner" id="insta_1">
@@ -128,6 +128,15 @@
 			<li class="icons" id="linkedin"><a href="https://www.linkedin.com/in/luke-zane-228622118/"></a></li>
 		</ul>
 	</footer>
+	<script>
+		function openNav() {
+			document.getElementById("myNav").style.width = "100%";
+		}
+
+		function closeNav() {
+			document.getElementById("myNav").style.width = "0%";
+		}
+	</script>
 </body>
 </html>
 
